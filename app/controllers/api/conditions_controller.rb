@@ -3,7 +3,7 @@ module Api
     
     def index
       conditions = %w(condition1 condition2 condition3 condition4)
-      render json: { list_of_conditions: conditions }
+      render json: conditions
     end
   end
 end
